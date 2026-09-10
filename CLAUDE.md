@@ -20,4 +20,4 @@ The private marketplace lives in `scilla-studio-stockholm/claude-plugins` and st
 
 ## Workflow
 
-Ticket-first, per the global rules. Branch `hello/sci-<n>-<desc>`, base `main`. Trivial text edits to an existing reference doc commit straight to `main`.
+Ticket-first, per the global rules. Branch `hello/sci-<n>-<desc>`, base `main`. Every change reaches `main` through a pull request with the release-consistency check green; a ruleset on the repo refuses direct pushes, force-pushes and deletions, with no bypass for anyone. People install this marketplace with auto-update on, so a broken manifest on `main` reaches their machines within a session. Licence is CC BY 4.0 (`LICENSE`).
