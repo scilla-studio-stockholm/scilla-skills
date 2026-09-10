@@ -19,7 +19,7 @@ Plugins load in Claude Code only (the terminal, the Code tab in the Claude deskt
 
 | Plugin | Skills |
 |---|---|
-| `product-knowledge` | `product-foundations`: the four statements that describe one product, and how to run the two-hour exercise with a team |
+| `product-knowledge` | `what-is-product`: what "product" means in the product operating model. Answers the question, applies the definition to the asker's own team, data, platform or API, and argues back when they push |
 
 Each skill folder holds a `SKILL.md` that tells Claude when and how to use it, and a `reference/` folder with the method itself.
 
