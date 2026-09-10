@@ -1,15 +1,15 @@
 ---
-title: Product Operating Model (Marty Cagan / SVPG), a summary
+title: The product operating model, a summary
 author: Joni Lindgren, scilla.studio
 ---
 
-# Product Operating Model — Marty Cagan / SVPG
+# The product operating model
 
 How a company funds, staffs, organizes itself, and decides what to build so that technology-powered products are the engine of the business rather than an IT-service function to it.
 
 A set of first principles describing how the best technology-powered companies create products. The model shifts organizations from output-driven (features shipped on dates) to outcome-driven (customer and business problems solved). It contrasts with the IT model, project model, feature-team model, and sales-driven model that most companies default to.
 
-Created by Marty Cagan and the Silicon Valley Product Group (SVPG). Described across three books: *Inspired* (2008/2017), *Empowered* (2020), and *Transformed* (2024).
+This summary draws on the writing of Marty Cagan and the Silicon Valley Product Group (SVPG), on the other sources listed at the end, and on scilla.studio's own work with teams moving to the model.
 
 ## The Five Core Concepts
 
@@ -23,7 +23,7 @@ Created by Marty Cagan and the Silicon Valley Product Group (SVPG). Described ac
 
 ## Three Dimensions of Change
 
-When transforming to the product model, Cagan identifies three shifts:
+A company moving to the product model makes three shifts:
 
 1. **How you decide which problems to solve** — Product leaders create a customer-centric vision and insight-driven strategy to identify critical problems aligned with business objectives
 2. **How you solve those problems** — Teams receive problems, not feature lists; engineers, designers, and PMs collaboratively discover solutions that are valuable, usable, feasible, and viable
@@ -100,7 +100,7 @@ The "product trio" (PM, designer, tech lead) works together daily on both discov
 
 ## The Transformation Approach
 
-Cagan's recommended path from *Transformed*:
+The path *Transformed* recommends:
 
 1. **Leadership buy-in** — CEO must believe current ways of working won't drive future success
 2. **Organizational assessment** — Understand current state honestly
@@ -133,7 +133,7 @@ Cagan's recommended path from *Transformed*:
 - **Continuous Delivery (Forsgren/Humble)**: The four delivery principles directly align with the DORA metrics and Accelerate research on high-performing engineering teams.
 - **Agile**: The product model builds on agile's values but argues most "agile" implementations miss the point — they optimize delivery mechanics without addressing discovery or empowerment.
 
-## Cagan's Book Trilogy
+## The three SVPG books
 
 | Book          | Year                | Focus                                                 |
 | ------------- | ------------------- | ----------------------------------------------------- |
