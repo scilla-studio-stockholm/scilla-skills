@@ -41,4 +41,6 @@ Installed plugins refresh only when the plugin's version string changes. Commits
 
 ## Licence
 
-Copyright scilla.studio. Read and use freely; ask before republishing the material elsewhere.
+Creative Commons Attribution 4.0 (CC BY 4.0). Use, copy, adapt and share anything here, for any purpose, as long as you credit scilla.studio and link back to this repository. Full text in `LICENSE`.
+
+Pull requests are welcome for typos, broken links and clearer wording. Changes to the methods themselves or to how a skill behaves go through scilla.studio; open an issue first so we can talk it through.
