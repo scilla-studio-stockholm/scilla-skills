@@ -1,0 +1,8 @@
+{
+  "name": "product-knowledge",
+  "description": "Product management knowledge from scilla.studio, one skill per method. Currently: Product Foundations (the four statements that describe one product, and how to run the exercise with a team)",
+  "version": "0.1.0",
+  "author": {
+    "name": "scilla.studio"
+  }
+}
