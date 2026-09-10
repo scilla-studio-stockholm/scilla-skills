@@ -1,0 +1,20 @@
+name: Release consistency
+
+# This repo IS the marketplace. A mismatch between marketplace.json and a
+# plugin's own plugin.json ships silently and strands the update for everyone
+# who installed the plugin, so the check runs on every push and PR.
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check marketplace and plugin manifests agree
+        run: python3 scripts/check-release-consistency.py

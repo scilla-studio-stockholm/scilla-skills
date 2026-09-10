@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "product-knowledge",
-      "description": "Product management knowledge from scilla.studio, one skill per method. Currently: Product Foundations (the four statements that describe one product, and how to run the exercise with a team)",
-      "version": "0.1.0",
+      "description": "Product management knowledge from scilla.studio, one skill per method. Currently: what \"product\" means in the product operating model, a discussion partner that answers, applies the definition to the asker's own team, data, platform or API, and argues back when they push",
+      "version": "0.2.0",
       "author": {
         "name": "scilla.studio"
       },
