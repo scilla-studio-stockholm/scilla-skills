@@ -17,9 +17,12 @@ Plugins load in Claude Code only (the terminal, the Code tab in the Claude deskt
 
 ## What is in it
 
-| Plugin | Skills |
-|---|---|
-| `product-knowledge` | `what-is-product`: what "product" means in the product operating model. Answers the question, applies the definition to the asker's own team, data, platform or API, and argues back when they push |
+| Plugin | Skill | What it does |
+|---|---|---|
+| `product-knowledge` | `what-is-product` | What "product" means in the product operating model. Answers the question, applies the definition to the asker's own team, data, platform or API, and argues back when they push. |
+| `product-knowledge` | `define-outcomes` | Writes a business outcome and a product outcome with a team from its goal, or checks one already written against the four-check test and the three outcome types. |
+| `product-knowledge` | `story-based-interviews` | Teaches what story-based customer interviews are and why discovery runs on them, and reviews interview questions one by one with rewrites. |
+| `product-knowledge` | `plan-interview` | From an outcome or opportunity to the research questions, the opening story question, a follow-up cheat sheet and a coverage checklist. |
 
 Each skill folder holds a `SKILL.md` that tells Claude when and how to use it, and a `reference/` folder with the method itself.
 
