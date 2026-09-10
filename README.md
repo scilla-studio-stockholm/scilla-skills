@@ -23,6 +23,8 @@ Plugins load in Claude Code only (the terminal, the Code tab in the Claude deskt
 | `product-knowledge` | `define-outcomes` | Writes a business outcome and a product outcome with a team from its goal, or checks one already written against the four-check test and the three outcome types. |
 | `product-knowledge` | `story-based-interviews` | Teaches what story-based customer interviews are and why discovery runs on them, and reviews interview questions one by one with rewrites. |
 | `product-knowledge` | `plan-interview` | From an outcome or opportunity to the research questions, the opening story question, a follow-up cheat sheet and a coverage checklist. |
+| `product-knowledge` | `clean-transcript` | Turns a raw transcript from any recording tool into a clean, speaker-labelled document, and reviews speaker attribution. |
+| `product-knowledge` | `find-opportunities` | Gets opportunities out of cleaned interviews as verbatim customer citations, checks opportunities a trio wrote, and compares them against the product outcome. |
 
 Each skill folder holds a `SKILL.md` that tells Claude when and how to use it, and a `reference/` folder with the method itself.
 
