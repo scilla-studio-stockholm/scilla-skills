@@ -4,7 +4,7 @@ Product management knowledge and skills from [scilla.studio](https://scilla.stud
 
 ## Install
 
-In Claude Code:
+**In Claude Code** (the terminal, the Code tab in the Claude desktop app, or Claude Code on the web):
 
 ```
 /plugin marketplace add scilla-studio-stockholm/scilla-skills
@@ -13,7 +13,9 @@ In Claude Code:
 
 Then switch on auto-update so new skills reach you without a manual step: `/plugin`, then **Marketplaces**, then `scilla-skills`, then **Enable auto-update**. Without it, run `/plugin marketplace update scilla-skills` whenever you want the latest.
 
-Plugins load in Claude Code only (the terminal, the Code tab in the Claude desktop app, and Claude Code on the web). The ordinary Claude chat window does not read marketplaces.
+**In the Claude app** (chat in the browser or the desktop app, and Cowork): open **Customize**, choose the **Plugins** tab, open the **Add** menu and pick **Add marketplace**. Enter `scilla-studio-stockholm/scilla-skills`, then install `product-knowledge` from the Discover list. On a Team or Enterprise plan an admin can add the marketplace once for the whole organisation and set the plugin to install by default.
+
+Once installed, the skills load on their own when a conversation touches their subject. You can also call one by name, for example `/product-knowledge:define-outcomes`.
 
 ## What is in it
 
