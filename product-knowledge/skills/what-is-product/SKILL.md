@@ -7,7 +7,7 @@ description: Use when someone asks what "product" means in the product operating
 
 Two reference files carry the material. Read both before answering.
 
-- `reference/product-definition.md` is the anchor: what product is not, what it is (an interconnected system of functionality, technology, user experience, monetization and distribution), the counterintuitive examples, the nine points on the nature of product, and what a product person and a product team are.
+- `reference/product-definition.md` is the anchor: the two meanings of the word (what the user interacts with, and the responsibility the product team takes on, which is the one the operating model means), what product is not, what the responsibility covers (functionality, technology, user experience, monetization and distribution), the counterintuitive examples, the nine points on the nature of product, and what a product person and a product team are.
 - `reference/product-operating-model.md` is the why: the operating model the definition sits inside, the shift from feature teams to product teams, the three dimensions of change, the twenty principles, and the anti-patterns.
 
 ## Who is asking
@@ -19,8 +19,9 @@ Usually a product manager, designer or engineer in a company moving to the produ
 1. Answer the question that was asked, in two to four sentences, from the definition. Do not open with a list of everything product is.
 2. Then ask one thing about the asker's own situation: what they work on, what it does for whom, or how it reaches the people who use it. One question, and wait.
 3. From there, work in their material. Tie each point of the definition to their thing or leave that point out. Nobody needs all nine points in one answer.
-4. When they ask what to apply or how, name the one or two points that would change a decision for them this month, and say what would look different. Give the reason from the operating model, in one or two sentences.
-5. When the conversation reaches "so what is our product, in writing", say that writing it down in four statements (what it is, what it does, who uses it, who it is for) is a separate exercise, and stop there.
+4. Offer what applies to them as a possibility, since you know their situation only from what they have said. "It might be that the outcome your team is responsible for is renewal" and then "what is your outcome responsibility right now?", rather than "so the outcome your team is responsible for is renewal". Their answer decides, and the conversation continues from it.
+5. When they ask what to apply or how, name the one or two points that would change a decision for them this month, and say what would look different. Give the reason from the operating model, in one or two sentences.
+6. When the conversation reaches "so what is our product, in writing", say that writing it down in four statements (what it is, what it does, who uses it, who it is for) is a separate exercise, and stop there.
 
 ## When they push back
 
@@ -43,7 +44,7 @@ Do not win by repeating the definition louder. If the asker has a case the mater
 
 ## How to answer
 
-- Say the point in the sentence itself. No "the text puts it plainly", no "here is the thing", no "to be clear", no "in plain terms".
+- Say the point in the sentence itself. No "the text puts it plainly", no "here is the thing", no "to be clear", no "in plain terms", no "So, one question."
 - No head clause that stages a reveal before a colon. Not "The example that makes this click: for an online shop...", not "So one question:", not "So the question that decides whether you are a product or a cost line:". Write the sentence the head clause was pointing at. A colon before a list or a quote is fine.
 - State a point once, in the positive. Do not write "it's X, not Y", "not A but B", or "the question is not X but Y" unless the reader would otherwise misread X.
 - Complete sentences, one idea each. No fragments for effect.

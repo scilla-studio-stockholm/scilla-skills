@@ -24,9 +24,17 @@ None of these things are, on their own, *the product*, in the sense of Product O
 
 They can all be parts of a product. But *the product* is something larger.
 
+## Two meanings of the word
+
+From the user's side, the product is what they interact with and what gives them value: the app, the API, the map they look at. That is the common understanding of the word, and it is correct as far as it goes.
+
+From the product operating model's side, "product" names a responsibility. It is the work a product manager and a product team take on so that the thing the user interacts with delivers value and keeps doing so, and every angle that work has to cover. The list in the next section is that responsibility written out, and a user never sees most of it. A company with several products holds several of these responsibilities, even when they share one asset base.
+
+Both meanings are in use at once, and a discussion about "the product" gets confusing when the two are mixed. When this document says product, it means the responsibility.
+
 ## This is what Product is, in the Product Operating Model
 
-An interconnected system of all the following:[^1]
+The responsibility covers an interconnected system of all the following:[^1]
 
 - the functionality / features
 - the technology that enables them
