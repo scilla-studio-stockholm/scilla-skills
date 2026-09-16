@@ -23,14 +23,15 @@ Once installed, the skills load on their own when a conversation touches their s
 |---|---|---|
 | `product-knowledge` | `what-is-product` | What "product" means in the product operating model. Answers the question, applies the definition to the asker's own team, data, platform or API, and argues back when they push. |
 | `product-knowledge` | `define-outcomes` | Writes a business outcome and a product outcome with a team from its goal, or checks one already written against the four-check test and the three outcome types. |
-| `product-knowledge` | `story-based-interviews` | Teaches what story-based customer interviews are and why discovery runs on them, and reviews interview questions one by one with rewrites. |
-| `product-knowledge` | `plan-interview` | From an outcome or opportunity to the research questions, the opening story question, a follow-up cheat sheet and a coverage checklist. |
+| `product-knowledge` | `customer-interviews` | Teaches what story-based customer interviews are and why discovery runs on them, plans a round from an outcome or opportunity (research questions, opening story question, follow-up cheat sheet, coverage checklist), and reviews interview questions one by one with rewrites. |
 | `product-knowledge` | `clean-transcript` | Turns a raw transcript from any recording tool into a clean, speaker-labelled document, and reviews speaker attribution. |
 | `product-knowledge` | `find-opportunities` | Gets opportunities out of cleaned interviews as verbatim customer citations, checks opportunities a trio wrote, and compares them against the product outcome. |
 
 Each skill folder holds a `SKILL.md` that tells Claude when and how to use it, and a `reference/` folder with the method itself.
 
 ## Releasing a change
+
+What changed in each version is in `CHANGELOG.md`.
 
 Installed plugins refresh only when the plugin's version string changes. Commits alone do nothing.
 
@@ -43,4 +44,4 @@ Installed plugins refresh only when the plugin's version string changes. Commits
 
 Creative Commons Attribution 4.0 (CC BY 4.0). Use, copy, adapt and share anything here, for any purpose, as long as you credit scilla.studio and link back to this repository. Full text in `LICENSE`.
 
-Pull requests are welcome for typos, broken links and clearer wording. Changes to the methods themselves or to how a skill behaves go through scilla.studio; open an issue first so we can talk it through.
+Pull requests are welcome for typos, broken links and clearer wording. Changes to the methods themselves or to how a skill behaves go through scilla.studio; open an issue first so we can talk it through. See `CONTRIBUTING.md`.
