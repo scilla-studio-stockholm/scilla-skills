@@ -31,6 +31,8 @@ Each skill folder holds a `SKILL.md` that tells Claude when and how to use it, a
 
 ## Releasing a change
 
+What changed in each version is in `CHANGELOG.md`.
+
 Installed plugins refresh only when the plugin's version string changes. Commits alone do nothing.
 
 1. Edit the skill.

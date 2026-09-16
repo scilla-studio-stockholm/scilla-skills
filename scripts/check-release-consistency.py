@@ -31,6 +31,20 @@ MARKETPLACE = REPO / ".claude-plugin" / "marketplace.json"
 NAME_MISMATCH_OK = re.compile(r"$^")
 
 
+# An absolute home-directory path in a shipped file resolves on exactly one
+# machine. Three shipped writing skills pointed into /Users/<name>/…/pmf-analys;
+# on the other machine that repo is not there at all, and nothing errored — the
+# files simply were not found. Same argument as the version trap above: the
+# README said to keep paths portable, and four years of checklists did not.
+HOME_PATH = re.compile(r"/(?:Users|home)/([A-Za-z0-9._-]+)/")
+
+# Stand-ins in prose and doctests name no real machine.
+PLACEHOLDER_HOME = {"x", "y", "user", "username", "name", "someone", "you", "me"}
+
+# Files that keep an absolute path on purpose. None yet in this repo.
+ABSOLUTE_PATH_OK = re.compile(r"$^")
+
+
 def load_json(path: Path) -> dict | None:
     try:
         return json.loads(path.read_text())
@@ -108,6 +122,8 @@ def main() -> int:
             for skill in sorted(p for p in skills_dir.iterdir() if p.is_dir()):
                 problems.extend(check_skill(skill, plugin_dir))
 
+        problems.extend(check_plugin_paths(plugin_dir))
+
     # A plugin directory that exists but nothing publishes is invisible to the team.
     for candidate in sorted(REPO.iterdir()):
         if not candidate.is_dir() or candidate.name.startswith("."):
@@ -157,6 +173,29 @@ def check_skill(skill: Path, plugin_dir: Path) -> list[str]:
     if not re.search(r"^description:\s*\S", frontmatter, re.M):
         problems.append(f"{rel}: SKILL.md frontmatter has no description")
 
+    return problems
+
+
+def check_plugin_paths(plugin_dir: Path) -> list[str]:
+    """Flag absolute home-directory paths in the files a plugin ships."""
+    problems = []
+    for path in sorted(p for p in plugin_dir.rglob("*") if p.is_file()):
+        rel = path.relative_to(REPO)
+        if ABSOLUTE_PATH_OK.search(str(rel)):
+            continue
+        try:
+            lines = path.read_text().splitlines()
+        except (UnicodeDecodeError, OSError):
+            continue
+        for n, line in enumerate(lines, 1):
+            for user in HOME_PATH.findall(line):
+                if user in PLACEHOLDER_HOME:
+                    continue
+                problems.append(
+                    f"{rel}:{n}: absolute home path under /{user}/ — resolves on one "
+                    f"machine only. Use a repo-relative path, ~, or name the repo."
+                )
+                break
     return problems
 
 
