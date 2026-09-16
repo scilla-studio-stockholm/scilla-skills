@@ -12,11 +12,12 @@ its conventions there.
 
 This repo is self-contained, in both directions.
 
-**Nothing private comes in.** No client names, no engagement material, no ticket numbers in
-shipped files, no paths into other scilla repos, no dependency on a private plugin, skill, hook,
-agent, output style or rules file. A skill here must work for someone who has installed nothing
-else. When a method comes from `scilla-studio/core/knowledge/`, the copy in `reference/` is
-cleaned for a public reader and then stands on its own.
+**Nothing private comes in.** No client names, no engagement material, no ticket numbers, no
+paths into private repos, no dependency on a private plugin, skill, hook, agent, output style or
+rules file. This applies to every file in the repo, not only the ones the plugin ships: all of it
+is public. A skill here must work for someone who has installed nothing else. Where a method
+comes from the internal knowledge base, the copy in `reference/` is cleaned for a public reader
+and then stands on its own.
 
 **Nothing local goes out.** This repo carries **no `.claude/` directory** — no settings, no
 hooks, no agents, no commands. That is deliberate and not an oversight to fix. `.claude/settings.json`
@@ -55,12 +56,11 @@ skill and nothing else until one fires, so any disambiguation has to live in the
   against *granska* / *kolla* / *är … bra* is what separates two skills.
 - No trigger phrase may appear in two skills' descriptions without a distinguishing verb in both.
 - Keep the description at 1024 characters or fewer. Claude Code rejects longer ones.
-- When two skills keep colliding, merge them. Removing the routing decision beats improving it
-  (SCI-1016).
+- When two skills keep colliding, merge them. Removing the routing decision beats improving it.
 
-## Adding a knowledge skill
+## Adding a knowledge skill (maintainers)
 
-1. Copy the source doc from `scilla-studio/core/knowledge/` into `reference/`, then strip
+1. Copy the source doc from the internal knowledge base into `reference/`, then strip
    wiki-links, ticket numbers, client names, repo paths and internal history.
 2. Write `SKILL.md` per the rules above.
 3. Bump the plugin version in both manifests and update the README table.
@@ -68,10 +68,14 @@ skill and nothing else until one fires, so any disambiguation has to live in the
 
 ## Workflow
 
-Ticket-first: work is tracked in Linear, team Scilla (`SCI`). Branch `hello/sci-<n>-<desc>`, base
-`main`. Every change reaches `main` through a pull request with the release-consistency check
-green; a ruleset on the repo refuses direct pushes, force-pushes and deletions, with no bypass
-for anyone. Ticket numbers stay in Linear and in commit messages, never in shipped files.
+**Outside contributors: see `CONTRIBUTING.md`.** Fork, branch, pull request. Nothing below
+applies to you, and none of it is needed for a change to be accepted.
+
+**Maintainers.** Ticket-first: work is tracked in Linear, team Scilla (`SCI`). Branch
+`hello/sci-<n>-<desc>`, base `main`. Every change reaches `main` through a pull request with the
+release-consistency check green; a ruleset on the repo refuses direct pushes, force-pushes and
+deletions, with no bypass for anyone. Ticket numbers stay in Linear and in commit messages, never
+in a file in this repo.
 
 People install this marketplace with auto-update on, so a broken manifest on `main` reaches their
 machines within a session. Removing or renaming a skill is a breaking change for anyone already
