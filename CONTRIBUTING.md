@@ -35,6 +35,9 @@ before pushing; it needs no dependencies.
   `.claude-plugin/marketplace.json`. Installed copies refresh on the version string, not on
   commits. The consistency check fails if the two disagree.
 - Renaming or removing a skill breaks anyone already installed. Say so in the pull request.
+- `product-knowledge/evals/` holds cases that check the right skill fires for a realistic
+  prompt. If you change a description, add or adjust a case there; a description change is a
+  routing change even when the wording looks cosmetic.
 
 ## What we cannot take
 
