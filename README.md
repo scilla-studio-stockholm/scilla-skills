@@ -23,8 +23,7 @@ Once installed, the skills load on their own when a conversation touches their s
 |---|---|---|
 | `product-knowledge` | `what-is-product` | What "product" means in the product operating model. Answers the question, applies the definition to the asker's own team, data, platform or API, and argues back when they push. |
 | `product-knowledge` | `define-outcomes` | Writes a business outcome and a product outcome with a team from its goal, or checks one already written against the four-check test and the three outcome types. |
-| `product-knowledge` | `story-based-interviews` | Teaches what story-based customer interviews are and why discovery runs on them, and reviews interview questions one by one with rewrites. |
-| `product-knowledge` | `plan-interview` | From an outcome or opportunity to the research questions, the opening story question, a follow-up cheat sheet and a coverage checklist. |
+| `product-knowledge` | `customer-interviews` | Teaches what story-based customer interviews are and why discovery runs on them, plans a round from an outcome or opportunity (research questions, opening story question, follow-up cheat sheet, coverage checklist), and reviews interview questions one by one with rewrites. |
 | `product-knowledge` | `clean-transcript` | Turns a raw transcript from any recording tool into a clean, speaker-labelled document, and reviews speaker attribution. |
 | `product-knowledge` | `find-opportunities` | Gets opportunities out of cleaned interviews as verbatim customer citations, checks opportunities a trio wrote, and compares them against the product outcome. |
 
