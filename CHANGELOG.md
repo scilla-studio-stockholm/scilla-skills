@@ -3,6 +3,15 @@
 Installed copies refresh on the plugin's version string. Anything that changes what a skill does
 gets a version here.
 
+## product-knowledge 0.5.1 (2026-09-23)
+
+**`define-outcomes` checks an outcome in a new order and answers in plain words.** When you hand
+it an outcome to review, it now asks first whose behaviour changes. If the people in the outcome
+are your own staff, it asks which customer behaviour that serves. It then says whether the wording
+describes one particular solution, and it asks what you know today before it asks for a baseline
+or a time frame. The answer no longer names the four checks. It describes the biggest problem in
+everyday words and ends with one question.
+
 ## product-knowledge 0.5.0 — 2026-09-16
 
 **Breaking: `plan-interview` and `story-based-interviews` are gone.** They are replaced by one
