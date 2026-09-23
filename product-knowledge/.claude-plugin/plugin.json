@@ -1,7 +1,7 @@
 {
   "name": "product-knowledge",
   "description": "Product management knowledge from scilla.studio, one skill per method: what \"product\" means in the product operating model, defining business and product outcomes, customer interviews (the method, planning a round, and reviewing questions), cleaning raw transcripts, and finding, checking and comparing opportunities from interviews",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "author": {
     "name": "scilla.studio"
   }
