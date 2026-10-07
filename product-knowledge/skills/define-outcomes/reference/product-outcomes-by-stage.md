@@ -30,7 +30,6 @@ Avoid fluffy words like "easy", "efficient", "secure", "enable". They are proxie
 
 - Good: "Increase monthly active users (aged 18 to 35) from 12,000 to 15,000 by Q4 2026"
 - Bad: "Enable the customer to find information"
-| "Increase weekly exports by 20 percent, so that more agencies pay" | The "so that" clause explains the level above. The link belongs in the hierarchy |
 
 **3. Time frame**
 
@@ -55,6 +54,7 @@ A product outcome sits under the business outcome it serves, and the reader deri
 | "Enable the customer to find information"                      | The team has distanced itself from the result. Rephrase so that the team owns what happens |
 | Several goals in the same wording                              | Impossible to focus on or follow up. Pick one                                              |
 | Missing baseline or time frame                                 | No way to know whether you are making progress                                             |
+| "Increase weekly exports by 20 percent, so that more agencies pay" | The "so that" clause explains the level above. The link belongs in the hierarchy |
 
 ## Self-test: can the team formulate a specific product outcome?
 
