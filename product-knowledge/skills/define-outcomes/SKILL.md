@@ -22,7 +22,7 @@ A product manager, designer or engineer whose team has been handed a goal, or wh
 1. Find the business outcome the team's work is meant to move. If the goal is already a business metric (revenue, churn, ARPA), that is the business outcome, and the product outcome sits under it. Write the business outcome in the fixed shape: reach, increase or decrease a metric, from a baseline, to a target, by a deadline.
 2. Find the behaviour. Ask what a user who has got what the goal describes does differently from one who has not. Offer two or three candidate behaviours as possibilities and ask which one the team can see in its data.
 3. Run the self-test before writing a specific outcome. If the team cannot say yes to the five statements (problem understood, who has it, current behaviour known, product can partly address it, baseline exists or can be established), a specific outcome is not possible yet. Say so, and offer the form that fits: a directional outcome, a hypothesis with signals, or an observation window with a decision point.
-4. Write the outcome in the template. Behaviour change, baseline, target, time frame, and the business value it is meant to move. Read it back against the four checks.
+4. Write the outcome in the template. Behaviour change, baseline, target and time frame. Name the business outcome it sits under, but keep it out of the sentence: no "so that" clause. Read it back against the four checks.
 5. Hand it on. When the team has an outcome, the next step is the research questions and the interview, and the customer-interviews skill takes that.
 
 **Check an outcome someone already wrote.** Work through these in order. Stop at the first problem that changes what kind of outcome this is, raise it, ask one question and wait. Take the next problem after the answer.
@@ -30,7 +30,7 @@ A product manager, designer or engineer whose team has been handed a goal, or wh
 1. Whose behaviour changes. If the people in the outcome are the company's own staff (sellers, support, developers), say that first. Ask what a customer does differently when the staff member does this. That customer behaviour is the candidate outcome, and the staff behaviour may be a means to it.
 2. Whether it describes one solution. Ask yourself whether there is more than one way to reach it. When the wording describes the end state of one particular thing to build (a demo sellers run alone, a new flow, an automation), name that thing and ask what problem it is meant to solve. Give your answer on this every time, also when the outcome passes.
 3. What the team knows. Before asking for a baseline or a time frame, ask whether the team knows today's number. If it does not, offer the directional outcome or the observation window from the reference instead of the full template.
-4. The template gaps. Only then ask for what is missing: baseline, target, time frame, the business value it moves.
+4. The template gaps. Only then ask for what is missing: baseline, target, time frame, and which business outcome it sits under.
 
 The four checks in the reference (measurable, behavioural, influenceable, connected) are your checklist. Never name them to the asker. Say what is missing in everyday words instead: "Ni vet inte hur stor andelen är i dag."
 

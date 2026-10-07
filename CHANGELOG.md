@@ -3,6 +3,13 @@
 Installed copies refresh on the plugin's version string. Anything that changes what a skill does
 gets a version here.
 
+## product-knowledge 0.5.2 (2026-10-07)
+
+**`define-outcomes` writes an outcome without a "so that" clause.** The template now ends at the
+time frame. The skill still asks which business outcome the product outcome sits under, but it
+keeps that out of the sentence: the link shows through the outcome's place under the business
+outcome. A "so that" clause is listed as a pitfall.
+
 ## product-knowledge 0.5.1 (2026-09-23)
 
 **`define-outcomes` checks an outcome in a new order and answers in plain words.** When you hand
