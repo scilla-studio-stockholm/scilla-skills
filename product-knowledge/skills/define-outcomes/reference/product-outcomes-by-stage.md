@@ -11,7 +11,7 @@ This guide helps teams formulate product outcomes whatever their state of knowle
 
 ## Template: specific product outcome
 
-> Achieve/Increase/Reduce [specific behaviour change] from [baseline] to [target] within [time frame] (in order to achieve [business value].)
+> Achieve/Increase/Reduce [specific behaviour change] from [baseline] to [target] within [time frame]
 
 ### Four parameters make up a product outcome
 
@@ -38,9 +38,9 @@ Use a concrete time frame. Without one there is no urgency, and it is hard to ju
 - Good: "Reach 60 % 7-day retention in the SMB segment by Q3 2025"
 - Bad: "Improve activation during the year"
 
-**4. Bonus: link to the overarching business goal**
+**4. The link to the business goal shows in the hierarchy**
 
-It is perfectly fine to spell out which business goal or goals a product outcome is able to influence. It is usually implicit, but clarity rarely hurts.
+A product outcome sits under the business outcome it serves, and the reader derives the link from that position. The sentence carries no explaining clause such as "so that" or "in order to achieve". When the link cannot be seen without one, the outcome has drifted from the level above, and the outcome is rewritten rather than explained.
 
 ## Common pitfalls
 
@@ -54,6 +54,7 @@ It is perfectly fine to spell out which business goal or goals a product outcome
 | "Enable the customer to find information"                      | The team has distanced itself from the result. Rephrase so that the team owns what happens |
 | Several goals in the same wording                              | Impossible to focus on or follow up. Pick one                                              |
 | Missing baseline or time frame                                 | No way to know whether you are making progress                                             |
+| "Increase weekly exports by 20 percent, so that more agencies pay" | The "so that" clause explains the level above. The link belongs in the hierarchy |
 
 ## Self-test: can the team formulate a specific product outcome?
 
